@@ -1,0 +1,72 @@
+
+/* ortak olan değişkenleri bir arada vermek için bu css kullanılabilir 
+bootstarp da nasıl kullanıyorduk onu hatırla bu yapı da ona benzer kafanı karıştırma*/
+
+.font-400{
+    font-weight: 400;
+}
+.font-500{
+    font-weight: 500;
+}
+
+.font-700{
+    font-weight: 700;
+}
+
+.text-size-18{
+    font-size: 18px;
+}
+
+.text-size-54{
+    font-size: 54px;
+}
+.text-size-16{
+    font-size: 16px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-blue{
+    background-color:#171A3C;
+}
+
+.opacity{
+    opacity: 0.5;
+}
+
+
+
+/* bu noktada kafam karıştı  */
+.p-10px{
+    padding:10px;      /*burada bunun yerine  variable.css de yazdığımız --size-sm
+                            padding:var(--size-sm) olarak yazabiliriz*/
+}
+
+.p-16px{
+    padding: 16px;
+}
+
+.p-20px{
+    padding: 20px;
+}
+
+.p-24px{
+    padding: 24px;
+}
+
+.p-32px{
+    padding: 32px;
+}
+.mt-94{
+    margin-top:94px;
+}

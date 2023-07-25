@@ -1,0 +1,34 @@
+.icon{
+    /* width: 18px;
+    height: 18px; */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+/* Background size iconun ekrana göre şekil almasını sağlar (w, h değişmesiyle ikonda orantılı artar) */
+
+.icon-sm{
+    width: 16px;
+    height: 16px;
+}
+
+.icon-lg{
+    width: 34px;
+    height: 34px;
+}
+
+.icon-bell{
+   background-image: url(./icon/icon.svg); 
+}
+.icon-arrow-left{
+    background-image: url(./icon/Frame.svg);
+}
+.icon-bell:hover{
+    transform-origin: 50%;
+    transform:rotate(10deg);
+    perspective: 20ch;
+}

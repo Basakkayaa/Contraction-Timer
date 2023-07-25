@@ -1,0 +1,13 @@
+.btn{
+    width: 160px;
+    height: 72px;
+    border-radius: 41px;
+    padding: 24px 32px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:pink;
+    transform: rotate(5deg);
+    border: none;
+} 
